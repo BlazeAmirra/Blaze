@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to the CSS file - must be in static folder -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
+    <title>My Acomplishments</title>
+</head>
+<body>
+<nav>
+    <ul class="menu">
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('About_me') }}">About me</a></li>
+                <li><a href="{{ url_for('Acomplishments') }}">Acomplishments</a></li>
+              
+              
+</ul>
+<p>These are some of my accomplishments I have made in my life.</p>
+</nav>
+</body>
+</html>
