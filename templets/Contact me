@@ -8,16 +8,9 @@
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/main.css') }}">
     <title>All about NeAndrea</title>
 </head>
-<body>
-<nav>
-    <ul class="menu">
-            <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('About_me') }}">About me</a></li>
-                <li><a href="{{ url_for('Acomplishments') }}">Acomplishments</a></li>
-              
-              
-</ul>
+<body>         
+
 <p>My name is NeAndrea Harris a student at The Universty of advaning Tecnology. I am studying Robotics and Embedded systmes to prosue a carrer to be an inventer.</p>
-</nav>
+
 </body>
 </html>
