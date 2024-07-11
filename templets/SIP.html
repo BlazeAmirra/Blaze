@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-color: rgba(254, 91, 250, 0.70);
+        }
+        h1{
+            color:darkred;
+            
+        }
+        p{
+            font-family: fantasy;
+            size: 40;
+        }
+    </style>
+    <meta charset="UTF-8" />
+    <title>SIP</title>
+</head>
+      
+<body>
+    <p>This is for my bigest project yet.</p>
+    Innavator is a student webpage for students to conect and create new invetions and ideas.This will help students develop comunication skills,
+    build up a profolio, and create hard-skills in the filed they are magering in.
+    <a href="static\images\Innavator.mp4.">Innavator</a></p>
+    <style>
+        div.gallery{
+            margin: 10px;
+            border: 1px solid #b93030;
+            float:right;
+            width: 1180px;
+        }
+        div.gallery {
+                 width:100%;
+                 height:auto;
+                }
+      
+    </style>
+    
+<div class="gallery">
+    <a target="_show" href="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-04-27 140853.png">
+      <img src="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-04-27 140853.png" alt="web" width="600" height="400">
+    </a>
+    <div class="desc">Innavatorweb consept</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_show" href="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-03-27 123824.png">
+      <img src="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-03-27 123824.png" alt="Innavatorapp" width="600" height="400">
+    </a>
+    <div class="desc">Homepage</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_SIP" href="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-03-27 125334.png">
+      <img src="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-03-27 125334.png" alt="Innavatorapp" width="600" height="400">
+    </a>
+    <div class="desc">Employment page</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_SIP" href="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-03-27 125204.png">
+      <img src="C:\Users\amirr\OneDrive\Pictures\Screenshots\Screenshot 2024-03-27 125204.png" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Navigation page</div>
+  </div>
+
+
+    <li><a href="{{ url_for('home_page') }}">Home</a></li>
+    <li><a href="{{ url_for('Acomplishments') }}">Acomplishments</a></li>
+    <li><a href="{{ url_for('Objectives') }}">Objectives</a></li>
+    <li><a href="{{ url_for('Portfolio') }}">Portfolio</a></li>
+    <li><a href="{{ url_for('SIP') }}">SIP</a></li>
+    
+</body>
+</html>
